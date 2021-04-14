@@ -1,1 +1,3 @@
 # FFMPEG
+
+This code was part of a project for Software Practice 1. The project involved gathering data from various API's using AWS EC2 instances running Python in a Docker. The instances were timed to run every x minutes (depending on the API), gather the appropriate data, and update a shared elastic storage with the new data (yes, I know, lambdas would have been a better idea, but EC2 was a project requirement). The end goal of the project was to use this data and FFMPEG to create a video timeline displaying the collected data. The C++ file in this repository is the code responsible for creating that video.
